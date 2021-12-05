@@ -3,6 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+https://www.jurnal.id/id/blog/masih-bingung-dengan-purchase-order-po-dan-invoice-cari-tahu-perbedaannya/
 
 In the project directory, you can run:
 

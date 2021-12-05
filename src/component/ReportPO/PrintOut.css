@@ -1,0 +1,11 @@
+.my_print_transaksi {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.my_print_transaksi .menu-top {
+    display: flex;
+    justify-content: space-between;
+}

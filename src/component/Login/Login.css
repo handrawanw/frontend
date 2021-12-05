@@ -1,0 +1,18 @@
+.login-container {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.login-container .form-container {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+
+.login-width-card {
+    width: 35%;
+}

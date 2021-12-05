@@ -1,0 +1,39 @@
+.root-left-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding:0 1em;
+    background-color: #0084b7;
+    color: white;
+}
+
+.root-left-page .img-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1.5em 0;
+}
+
+.root-left-page .users-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.root-left-page .navigasi-info {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin:1em 0;
+    padding:.8em 0;
+    color: whitesmoke;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+}
+
+.root-left-page .link-route {
+    text-decoration: none;
+    color: whitesmoke;
+    margin:.5em;
+}

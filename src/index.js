@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "bootstrap/dist/css/bootstrap.css";
+import "moment/locale/id";
+
+import {BrowserRouter as Router} from "react-router-dom";
+import ReduxStore from "./store/index";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <ReduxStore>
+        <App />
+      </ReduxStore>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
